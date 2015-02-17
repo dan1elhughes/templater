@@ -6,7 +6,6 @@ class Templater {
 
 	public function __construct($folder) {
 		$this->folder = $folder;
-		echo "Templater loaded\n";
 	}
 
 	public function loadModule($template) {

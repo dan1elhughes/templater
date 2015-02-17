@@ -7,7 +7,6 @@ class Module {
 
 	public function __construct($folder, $template) {
 		$this->template = file_get_contents($folder.$template);
-		echo "Module loaded\n";
 	}
 
 	public function render($settings) {

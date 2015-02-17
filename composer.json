@@ -11,9 +11,9 @@
             "role": "Developer"
         }
     ],
-    "autoload": {
-        "files": [
-            "src/load.php"
-        ]
-    }
+	"autoload": {
+		"psr-4": {
+			"xes\\": "src/"
+		}
+	}
 }
